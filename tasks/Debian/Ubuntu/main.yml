@@ -1,0 +1,25 @@
+---
+
+- name: Common Dependencies
+  ansible.builtin.apt:
+    pkg:
+    - curl
+    - git
+    - unzip
+    - xz-utils
+    - zip
+    - libglu1-mesa
+    update_cache: true
+  become: true
+
+- name: Android
+  include_tasks: ./Android.yml
+  when: android
+
+- name: Linux
+  include_tasks: ./Linux.yml
+  when: desktop and linux
+
+- name: Web
+  include_tasks: ./Web.yml
+  when: web

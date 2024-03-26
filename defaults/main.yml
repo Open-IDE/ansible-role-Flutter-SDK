@@ -1,0 +1,17 @@
+---
+# Todo: Include Vars from: roles/Android-sdkmanager!
+android_home: "/opt/android"
+
+# platforms
+android: true
+
+desktop: true
+
+linux: true
+
+web: true
+
+android_emulator: true
+
+# test
+run_flutter_doctor: false
