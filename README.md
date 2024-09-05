@@ -1,7 +1,7 @@
-Role Name
+Flutter SDK
 =========
 
-A brief description of the role goes here.
+https://docs.flutter.dev/get-started/install
 
 Requirements
 ------------

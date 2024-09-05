@@ -1,5 +1,5 @@
 ---
-flutter_sdk_version: 3.19.4
+flutter_sdk_version: 3.24.2
 
 flutter_sdk_file_name: "flutter_linux_{{ flutter_sdk_version }}-stable.tar.xz"
 
